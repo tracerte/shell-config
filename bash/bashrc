@@ -116,9 +116,6 @@ if ! shopt -oq posix; then
   fi
 fi
 
-# Append Anaconda so that it doesn't override system Python
-export PATH=$PATH:~/anaconda3/bin
-
 # Added support for Items in .local/bin
 export PATH=$HOME/.local/bin:$PATH
 

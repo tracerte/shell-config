@@ -105,9 +105,6 @@ eval `dircolors ~/.dircolors`
 # colored completion - use my LS_COLORS
 zstyle ':completion:*:default' list-colors ${(s.:.)LS_COLORS}
 
-# Append Anaconda so that it doesn't override system Python
-export PATH=$PATH:~/anaconda3/bin
-
 # Added support for Items in .local/bin
 export PATH=$HOME/.local/bin:$PATH
 
