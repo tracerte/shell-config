@@ -118,3 +118,6 @@ fi
 
 # Added support for Items in .local/bin
 export PATH=$HOME/.local/bin:$PATH
+
+# Rust and Cargo
+export PATH="$HOME/.cargo/bin:$PATH"
